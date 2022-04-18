@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: helvetica;
+    font-size: 20px;
+    background-color: black;
+}
+
+/*navbar*/
+.navbar {
+    background-color: transparent !important;
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
+    font-size: larger;
+}
+
+
+
+}
+.navbar a {
+    color: #fcfcfa !important;
+    font-size: larger;
+}
+
+.navbar li {
+    color: #fcfcfa;
+}
+
+
+
+
+
+
+
+/*Quienes somos*/
+
+#quienesSomos { 
+    font-family: "open sans";
+    line-height: 2; /*interlineado*/
+    color: white;
+    background-color: black;
+}
+
+#quienesSomos h2 {
+    background-color: rgba(0, 204, 255, 0.885);
+}
+/* mi experiencia*/
+
+
+
+
+
+/* Footer*/
+.enviar {
+    display: flex !important;
+}
+
+.enviar button {
+    background-color: rgba(0, 204, 255, 0.885) !important;
+}
+
+#footer {
+    background-color: rgba(0, 204, 255, 0.885);
+}
+
+
+
+#footer a {
+    color: white;
+    text-decoration: none;
+}
