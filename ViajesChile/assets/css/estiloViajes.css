@@ -18,19 +18,12 @@ body {
     width: 100vw;
     z-index: 1;
     font-size: larger;
+    font-weight: 400;
+  
 }
 
 
 
-}
-.navbar a {
-    color: #fcfcfa !important;
-    font-size: larger;
-}
-
-.navbar li {
-    color: #fcfcfa;
-}
 
 
 
@@ -49,10 +42,17 @@ body {
 
 #quienesSomos h2 {
     background-color: rgba(0, 204, 255, 0.885);
+    text-align: center
 }
-/* mi experiencia*/
+/* destacados*/
 
+.card img {
+    height: 20rem;
+}
 
+.card-body {
+    background-color: rgba(0, 204, 255, 0.885);
+}
 
 
 

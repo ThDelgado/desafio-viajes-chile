@@ -21,18 +21,18 @@
 <body>
 
     
-    <nav class="navbar navbar-expand-lg fixed-top bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark  ">
         <div class="container">
             <a class="navbar-brand  d-flex" href="#">
                 <img src="./assets/img/viajes.svg" alt="logo viajes" width="40px">
                 <p> Viajes Chile</p>
             </a>
-            <button id="toggler" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"><i class="fas fa-bars text-white"></i></span>
+                <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <div class="collapse navbar-collapse text-white" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
                     
                     <li class="nav-item">
                         <a class="nav-link" href="#carousel">Inicio</a>
@@ -145,7 +145,7 @@
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 my-3">
                     <div class="card border-0" style="height: 600px">
-                        <img src="./assets/img/card4.jpg" class="card-img" alt="bosque">
+                        <img src="./assets/img/card4.jpg" class="card-img" alt="bosque" >
                         <div class="card-body">
                             <div class="card-title">Bosque </div>
                             <p class="card-text fw-light">
@@ -164,15 +164,15 @@
             <h2 class="text-center text-white">CONTACTO</h2>
             <div class="mb-3 text-white text-start">
                 <label for="exampleInputEmail1" class="form-label">Nombre</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Nombre" aria-describedby="emailHelp"  data-bs-toggle="tooltip" data-bs-placement="top" title="Escribe tu nombre">
             </div>
             <div class="mb-3 text-white text-start">
                 <label for="exampleInputPassword1" class="form-label">Asunto</label>
-                <input type="password" class="form-control" placeholder="asunto" >
+                <input type="password" class="form-control" placeholder="asunto"  data-bs-toggle="tooltip" data-bs-placement="fixed-top" title="Escribe el asunto" >
             </div>
             <div class="mb-3 text-white text-start">
                 <label for="exampleInputPassword1" class="form-label">Mensaje</label>
-                <textarea title="mesaje" type="text" class="form-control" rows="3" ></textarea>
+                <textarea title="mesaje" type="text" class="form-control" placeholder="Mensaje"  rows="3"  data-bs-toggle="tooltip" data-bs-placement="top" title="Presiona para enviar a tu correo" ></textarea>
             </div>
             <div class="enviar">
                 <button type="submit"  class="btn btn-primary align-self-start" id="liveAlertBtn" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Presiona para enviar a tu correo">Enviar</button>
